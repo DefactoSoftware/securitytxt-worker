@@ -7,7 +7,7 @@ clean:
 	rm -rf ./worker/ ./dist/
 
 sign:
-	gpg --local-user security@cloudflare.com -o src/txt/security.txt --clearsign src/txt/security.txt.temp
+	gpg --local-user security@capp12.nl -o src/txt/security.txt --clearsign src/txt/security.txt.temp
 	rm src/txt/security.txt.temp
 
 expire:

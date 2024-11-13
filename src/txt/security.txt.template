@@ -1,17 +1,16 @@
-Contact: https://hackerone.com/cloudflare
+Contact: https://app.zerocopter.com/nl/cvd/2960d41a-9598-411b-b8c2-17dae5218e93
+Contact: https://app.zerocopter.com/en/cvd/2960d41a-9598-411b-b8c2-17dae5218e93
 
 # If you'd like to encrypt your message, please do so within the the body of the message.
 # Our email system doesn't handle PGP-MIME well.
-Contact: mailto:security@cloudflare.com
+Contact: mailto:security@capp12.nl
 
-# All abuse reports should be submitted to our Trust & Safety team through our dedicated page.
-Contact: https://www.cloudflare.com/abuse/
+# Abuse reports may be submitted through:
+Contact: abuse@capp12.nl
 
-Preferred-Languages: en
- 
-Encryption: https://www.cloudflare.com/gpg/security-at-cloudflare-pubkey-06A67236.txt
-Canonical: https://www.cloudflare.com/.well-known/security.txt
- 
-Policy: https://www.cloudflare.com/disclosure
-# Search for Security :)
-Hiring: https://www.cloudflare.com/careers/jobs/
+Preferred-Languages: nl, en
+
+Encryption: %{host_url}/gpg/security-capp12-pubkey.txt
+Canonical: %{host_url}/.well-known/security.txt
+
+Policy: %{host_url}/disclosure-policy.html

@@ -12,6 +12,10 @@ module.exports = {
         test: /\.txt$/i,
         use: 'raw-loader',
       },
+      {
+        test: /\.md$/i,
+        use: 'raw-loader',
+      },
     ],
   },
 }
